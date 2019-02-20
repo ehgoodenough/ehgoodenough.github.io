@@ -11,14 +11,14 @@ node --version
 npm --version
 ```
 
-Start the server.
+Build to [localhost:8080](http://localhost:8080).
 
 ```
 npm install
 npm start
 ```
 
-Deploy to [ehgoodenough.github.io](https://ehgoodenough.github.io).
+Deploy to [github.io](https://ehgoodenough.github.io).
 
 ```
 npm run deploy
