@@ -11,7 +11,7 @@
   "scripts": {
     "build": "codeglue --stage=production",
     "start": "codeglue --stage=development --mode=server",
-    "deploy": "gh-pages --dist builds/web"
+    "deploy": "gh-pages --dist builds/web --branch master"
   },
   "dependencies": {
     "preact": "^8.2.7",
