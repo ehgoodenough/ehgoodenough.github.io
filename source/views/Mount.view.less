@@ -13,32 +13,62 @@
     box-sizing: border-box;
 }
 
-@keyframes fade-in {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+body {
+    background-color: @black; // ???
 }
 
-#mount {
-    width: 100%;
-    height: 100%;
+.Mount {
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+    margin: auto;
+    display: flex;
     position: absolute;
-    overflow-y: auto;
+    max-width: @max-width;
 
-    color: @black;
-    text-align: center;
     font-family: open-sans;
-    background-color: @white;
 
-    .Content {
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        margin: auto;
-        position: absolute;
-        max-width: @max-width;
+    .Portfolio {
+        width: 50%;
+        padding: @biggest-gutter;
+
+        color: @black;
+        background-color: @white;
+
+        section {
+            header {
+                font-size: 2em;
+                text-align: center;
+            }
+
+            .Entries {
+                display: grid;
+                margin-top: @gutter;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: @gutter;
+
+                .Entry {
+                    position: relative;
+                    padding-bottom: 133%;
+
+                    background-color: hotpink;
+                    border-radius: @roundness;
+
+                    .Title {
+                        text-align: center;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+
+    .Introduction {
+        width: 50%;
+        padding: @biggest-gutter;
 
         color: @white;
-        background-color: @faded-black;
+        background-color: @black;
     }
 }
