@@ -1,6 +1,7 @@
 import Preact from "preact"
 
 import "views/Mount.view.less"
+import "@fortawesome/fontawesome-free/css/all.css"
 
 const portfolio = {
     "games": [
@@ -181,18 +182,37 @@ export default class Mount {
     render() {
         return (
             <div class="Mount">
-                <div class="Portfolio">
-                    <section class="Games">
-                        <header>
-                            Games
-                        </header>
-                        <div class="Entries">
-                            {portfolio.games.map((game) => (
-                                <GameEntry game={game}/>
-                            ))}
-                        </div>
-                    </section>
-                </div>
+                <header>
+                    <img class="Avatar" src={require("images/me.jpg")}/>
+                    <div class="Introduction">
+                        <p><b>Howdy!</b></p>
+                        <p>My name is Andrew.</p>
+                        <p>I <i class="fas fa-heart"/> game jams.</p>
+                    </div>
+                </header>
+                <section class="Games">
+                    <div class="Entries">
+                        {portfolio.games.map((game) => (
+                            <GameEntry game={game}/>
+                        ))}
+                    </div>
+                </section>
+                <footer>
+                    <div class="SocialLinks">
+                        <a class="SocialLink" href="https://twitter.com/ehgoodenough" target="_blank">
+                            <i class="fab fa-twitter"/>
+                        </a>
+                        <a class="SocialLink"  href="https://github.com/ehgoodenough" target="_blank">
+                            <i class="fab fa-github"/>
+                        </a>
+                        <a class="SocialLink"  href="https://twitch.tv/yeahgoodenough" target="_blank">
+                            <i class="fab fa-twitch"/>
+                        </a>
+                        <a class="SocialLink"  href="https://www.npmjs.com/~ehgoodenough" target="_blank">
+                            <i class="fab fa-npm"/>
+                        </a>
+                    </div>
+                </footer>
             </div>
         )
     }
@@ -201,11 +221,12 @@ export default class Mount {
 class GameEntry {
     render() {
         return (
-            <a class="Game Entry" style={this.style}
+            <a class="Entry" style={this.style}
                 href={this.props.game.link} target="_blank">
                 <div class="Cover">
-                    <div class="Title">{this.props.game.title}</div>
-                    <div class="Jam">{this.props.game.jam}</div>
+                    <div class="Text">
+                        {this.props.game.jam}
+                    </div>
                 </div>
             </a>
         )

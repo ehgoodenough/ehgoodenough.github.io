@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "preact": "^8.2.7",
-    "statgrab": "^1.2.0"
+    "statgrab": "^1.2.0",
+    "@fortawesome/fontawesome-free": "^5.6.3"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.3.0",

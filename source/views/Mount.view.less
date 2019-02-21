@@ -1,5 +1,8 @@
 @import "./Styles.view.less";
 
+@violet: #b769d1;
+@blue: #3d2fae;
+
 @font-face {
     font-weight: 400;
     font-family: "open-sans";
@@ -9,101 +12,128 @@
 * {
     margin: 0px;
     padding: 0px;
-    user-select: none;
     box-sizing: border-box;
 }
 
 body {
-    background-color: @black; // ???
+    color: @black;
+    font-family: open-sans;
+    background-color: @white;
 }
 
 .Mount {
-    top: 0em;
     left: 0em;
     right: 0em;
-    bottom: 0em;
     margin: auto;
     position: absolute;
     max-width: @maximum-width;
 
-    font-family: open-sans;
-
-    .Portfolio {
-        padding: @biggest-gutter;
+    section, footer, header {
+        padding-left: @biggest-gutter;
+        padding-right: @biggest-gutter;
         @media(max-width: @break-width) {
-            padding: @biggest-gutter @gutter;
+            padding-left: @gutter;
+            padding-right: @gutter;
         }
 
-        color: @black;
-        background-color: @white;
+        margin-top: @biggest-gutter;
+    }
 
-        section {
-            header {
-                font-size: 2em;
-                text-align: center;
+    header {
+        display: flex;
+        justify-content: center;
+
+        .Avatar {
+            width: 5em;
+            height: 5em;
+            margin-right: 1em;
+            border-radius: @roundness;
+        }
+
+        .Introduction {
+            b {
+                font-size: 1.5em;
             }
+        }
+    }
 
-            .Entries {
-                display: grid;
-                margin-top: @gutter;
-                grid-gap: @gutter;
-                grid-template-columns: 1fr 1fr 1fr;
-                @media(max-width: @break-width) {
-                    grid-template-columns: 1fr 1fr;
-                }
-                @media(max-width: @minimum-width) {
-                    grid-template-columns: 1fr;
-                }
+    footer {
+        padding-top: @gutter;
+        padding-bottom: @gutter;
+        background-color: @black;
 
-                .Entry {
-                    position: relative;
-                    padding-bottom: 133%;
-                    padding-bottom: 75%;
-                    padding-bottom: 56.25%;
+        .SocialLinks {
+            .SocialLink {
+                font-size: 2em;
+                margin-right: 0.25em;
+                color: @violet;
 
-                    background-size: cover;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-color: hotpink;
-                    border-radius: @roundness;
-
+                &:hover {
                     color: @white;
-                    text-align: center;
-                    text-decoration: none;
-
-                    .Cover {
-                        top: 0em;
-                        left: 0em;
-                        right: 0em;
-                        bottom: 0em;
-                        position: absolute;
-
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-
-                        background: linear-gradient(fadeout(#3d2fae, 50%), fadeout(#b769d1, 50%));
-
-                        .Title {
-                            display: none;
-                        }
-
-                        .Jam {
-                            font-size: 1.2em;
-                            font-weight: bold;
-                        }
-                    }
                 }
             }
         }
     }
 
-    // .Introduction {
-    //     display: none;
-    //     width: 50%;
-    //     padding: @biggest-gutter;
-    //
-    //     color: @white;
-    //     background-color: @black;
-    // }
+    .Games {
+        .Entries {
+            display: grid;
+            grid-gap: @gutter;
+            margin-top: @gutter;
+            grid-template-columns: 1fr 1fr 1fr;
+            @media(max-width: @break-width) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media(max-width: @minimum-width) {
+                grid-template-columns: 1fr;
+            }
+
+            .Entry {
+                position: relative;
+                padding-bottom: 133%;
+                padding-bottom: 75%;
+                padding-bottom: 56.25%;
+
+                overflow: hidden;
+
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-color: hotpink;
+
+                border-radius: @roundness;
+
+                color: @white;
+                text-align: center;
+                text-decoration: none;
+
+                .Cover {
+                    top: 0em;
+                    left: 0em;
+                    right: 0em;
+                    bottom: 0em;
+                    position: absolute;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    background: linear-gradient(fadeout(@blue, 50%), fadeout(@violet, 50%));
+
+                    transition-property: opacity;
+                    transition-duration: 0.25s;
+
+                    &:hover {
+                        opacity: 0;
+                        transition-duration: 0.125s;
+                    }
+
+                    .Text {
+                        font-size: 1.2em;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
