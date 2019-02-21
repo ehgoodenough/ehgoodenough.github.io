@@ -23,15 +23,16 @@ body {
     right: 0em;
     bottom: 0em;
     margin: auto;
-    display: flex;
     position: absolute;
-    max-width: @max-width;
+    max-width: @maximum-width;
 
     font-family: open-sans;
 
     .Portfolio {
-        flex: 1;
         padding: @biggest-gutter;
+        @media(max-width: @break-width) {
+            padding: @biggest-gutter @gutter;
+        }
 
         color: @black;
         background-color: @white;
@@ -45,8 +46,14 @@ body {
             .Entries {
                 display: grid;
                 margin-top: @gutter;
-                grid-template-columns: 1fr 1fr 1fr;
                 grid-gap: @gutter;
+                grid-template-columns: 1fr 1fr 1fr;
+                @media(max-width: @break-width) {
+                    grid-template-columns: 1fr 1fr;
+                }
+                @media(max-width: @minimum-width) {
+                    grid-template-columns: 1fr;
+                }
 
                 .Entry {
                     position: relative;
