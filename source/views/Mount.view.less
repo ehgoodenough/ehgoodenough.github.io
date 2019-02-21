@@ -30,7 +30,7 @@ body {
     font-family: open-sans;
 
     .Portfolio {
-        width: 50%;
+        flex: 1;
         padding: @biggest-gutter;
 
         color: @black;
@@ -51,24 +51,52 @@ body {
                 .Entry {
                     position: relative;
                     padding-bottom: 133%;
+                    padding-bottom: 75%;
+                    padding-bottom: 56.25%;
 
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
                     background-color: hotpink;
                     border-radius: @roundness;
 
-                    .Title {
-                        text-align: center;
+                    color: @white;
+                    text-align: center;
+                    text-decoration: none;
+
+                    .Cover {
+                        top: 0em;
+                        left: 0em;
+                        right: 0em;
+                        bottom: 0em;
                         position: absolute;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        background: linear-gradient(fadeout(#3d2fae, 50%), fadeout(#b769d1, 50%));
+
+                        .Title {
+                            display: none;
+                        }
+
+                        .Jam {
+                            font-size: 1.2em;
+                            font-weight: bold;
+                        }
                     }
                 }
             }
         }
     }
 
-    .Introduction {
-        width: 50%;
-        padding: @biggest-gutter;
-
-        color: @white;
-        background-color: @black;
-    }
+    // .Introduction {
+    //     display: none;
+    //     width: 50%;
+    //     padding: @biggest-gutter;
+    //
+    //     color: @white;
+    //     background-color: @black;
+    // }
 }
