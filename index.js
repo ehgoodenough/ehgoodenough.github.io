@@ -1913,17 +1913,6 @@ module.exports = __webpack_require__.p + "fa959f92d18dfada8f954f7688b3571f.gif";
 
 /***/ }),
 
-/***/ "./source/images/inverse-worlds.png":
-/*!******************************************!*\
-  !*** ./source/images/inverse-worlds.png ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ad0b8966c59046bb2edc3e0c8fab96d4.png";
-
-/***/ }),
-
 /***/ "./source/images/jumpdude-1.gif":
 /*!**************************************!*\
   !*** ./source/images/jumpdude-1.gif ***!
@@ -1957,39 +1946,6 @@ module.exports = __webpack_require__.p + "262a1c542eef801f990cf7e0837e5cbb.gif";
 
 /***/ }),
 
-/***/ "./source/images/nodapl.png":
-/*!**********************************!*\
-  !*** ./source/images/nodapl.png ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "7165ba66b7893e3a2833ec6660f55b56.png";
-
-/***/ }),
-
-/***/ "./source/images/nothingness.png":
-/*!***************************************!*\
-  !*** ./source/images/nothingness.png ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "8b12f3014586271d04bf11f3d3780da5.png";
-
-/***/ }),
-
-/***/ "./source/images/opob-2.png":
-/*!**********************************!*\
-  !*** ./source/images/opob-2.png ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "34fba8db85ca410e19c17e04c55a8167.png";
-
-/***/ }),
-
 /***/ "./source/images/overclock.gif":
 /*!*************************************!*\
   !*** ./source/images/overclock.gif ***!
@@ -1998,17 +1954,6 @@ module.exports = __webpack_require__.p + "34fba8db85ca410e19c17e04c55a8167.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "ff938e2c8834aa1bce5f344e5307a548.gif";
-
-/***/ }),
-
-/***/ "./source/images/papercut.gif":
-/*!************************************!*\
-  !*** ./source/images/papercut.gif ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fe88971c2a3400cd730f9fe244a6456d.gif";
 
 /***/ }),
 
@@ -2034,39 +1979,6 @@ module.exports = __webpack_require__.p + "936da7b77408e700f01175634285ef0f.gif";
 
 /***/ }),
 
-/***/ "./source/images/roguelike.gif":
-/*!*************************************!*\
-  !*** ./source/images/roguelike.gif ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "d24955c15b6ed3f95c04035de6ca11a3.gif";
-
-/***/ }),
-
-/***/ "./source/images/salt-pile.gif":
-/*!*************************************!*\
-  !*** ./source/images/salt-pile.gif ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "5abdaf2ae22eb73cb422ac6265ce10ad.gif";
-
-/***/ }),
-
-/***/ "./source/images/snake-on-a-plane.gif":
-/*!********************************************!*\
-  !*** ./source/images/snake-on-a-plane.gif ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "710c60d0ba277e5114f1fc39fba4d69f.gif";
-
-/***/ }),
-
 /***/ "./source/images/sproutsong.gif":
 /*!**************************************!*\
   !*** ./source/images/sproutsong.gif ***!
@@ -2089,28 +2001,6 @@ module.exports = __webpack_require__.p + "d386363b3fb2a4d6ca8bb96429591475.gif";
 
 /***/ }),
 
-/***/ "./source/images/stake-your-acclaim.png":
-/*!**********************************************!*\
-  !*** ./source/images/stake-your-acclaim.png ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "26365136f85b5e3a17f2af34e75f16ba.png";
-
-/***/ }),
-
-/***/ "./source/images/starbox.gif":
-/*!***********************************!*\
-  !*** ./source/images/starbox.gif ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "0188d664d578f2c955f64c69e0317a4a.gif";
-
-/***/ }),
-
 /***/ "./source/images/stick-em-1.png":
 /*!**************************************!*\
   !*** ./source/images/stick-em-1.png ***!
@@ -2122,28 +2012,6 @@ module.exports = __webpack_require__.p + "8bdd4dac4ac50d3ce1062084a43d88ea.png";
 
 /***/ }),
 
-/***/ "./source/images/twitch-chat-lobby.png":
-/*!*********************************************!*\
-  !*** ./source/images/twitch-chat-lobby.png ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "9d17e3642e1698b08c47bdf13b938bda.png";
-
-/***/ }),
-
-/***/ "./source/images/wearwolf.gif":
-/*!************************************!*\
-  !*** ./source/images/wearwolf.gif ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "c33c869c283ee01de31270b19223316b.gif";
-
-/***/ }),
-
 /***/ "./source/images/whoami.gif":
 /*!**********************************!*\
   !*** ./source/images/whoami.gif ***!
@@ -2152,17 +2020,6 @@ module.exports = __webpack_require__.p + "c33c869c283ee01de31270b19223316b.gif";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "bb94c03b43ddda4afb199481d296e32a.gif";
-
-/***/ }),
-
-/***/ "./source/images/wootware.gif":
-/*!************************************!*\
-  !*** ./source/images/wootware.gif ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4c85c28b942075951f435d860eef21cf.gif";
 
 /***/ }),
 
@@ -2249,17 +2106,19 @@ var portfolio = {
     "image": __webpack_require__(/*! images/else-return-home.gif */ "./source/images/else-return-home.gif"),
     "link": "https://ackleyrc.itch.io/else-return-home",
     "jam": "Global Game Jam 2019"
-  }, {
-    "title": "Twitch Chat Lobby",
-    "image": __webpack_require__(/*! images/twitch-chat-lobby.png */ "./source/images/twitch-chat-lobby.png"),
-    "link": "https://globalgamejam.org/2018/games/twitch-chat-lobby",
-    "jam": "Global Game Jam 2018"
-  }, {
-    "title": "Stake your Acclaim",
-    "image": __webpack_require__(/*! images/stake-your-acclaim.png */ "./source/images/stake-your-acclaim.png"),
-    "link": "https://ldjam.com/events/ludum-dare/40/stake-your-acclaim",
-    "jam": "Ludum Dare 40"
-  }, {
+  }, // {
+  //     "title": "Twitch Chat Lobby",
+  //     "image": require("images/twitch-chat-lobby.png"),
+  //     "link": "https://globalgamejam.org/2018/games/twitch-chat-lobby",
+  //     "jam": "Global Game Jam 2018"
+  // },
+  // {
+  //     "title": "Stake your Acclaim",
+  //     "image": require("images/stake-your-acclaim.png"),
+  //     "link": "https://ldjam.com/events/ludum-dare/40/stake-your-acclaim",
+  //     "jam": "Ludum Dare 40",
+  // },
+  {
     "title": "Heartslingers",
     "image": __webpack_require__(/*! images/heartslingers.gif */ "./source/images/heartslingers.gif"),
     "link": "https://ehgoodenough.itch.io/heartslingers",
@@ -2279,22 +2138,24 @@ var portfolio = {
     "image": __webpack_require__(/*! images/fools-gold-2.gif */ "./source/images/fools-gold-2.gif"),
     "link": "https://ehgoodenough.itch.io/fools-gold",
     "jam": "Seattle Indies Jam 2017"
-  }, {
-    "title": "WootWare",
-    "image": __webpack_require__(/*! images/wootware.gif */ "./source/images/wootware.gif"),
-    "link": "https://ehgoodenough.github.io/microgames",
-    "jam": "Woot Jam 2017"
-  }, {
+  }, // {
+  //     "title": "WootWare",
+  //     "image": require("images/wootware.gif"),
+  //     "link": "https://ehgoodenough.github.io/microgames",
+  //     "jam": "Woot Jam 2017",
+  // },
+  {
     "title": "Punch-a-Bunch",
     "image": __webpack_require__(/*! images/punch-a-bunch.gif */ "./source/images/punch-a-bunch.gif"),
     "link": "https://globalgamejam.org/2017/games/shining-dragon-showdown-sunset-against-shadows",
     "jam": "Global Game Jam 2017"
-  }, {
-    "title": "Salt Pile",
-    "image": __webpack_require__(/*! images/salt-pile.gif */ "./source/images/salt-pile.gif"),
-    "link": "http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=41870",
-    "jam": "Ludum Dare 37"
-  }, {
+  }, // {
+  //     "title": "Salt Pile",
+  //     "image": require("images/salt-pile.gif"),
+  //     "link": "http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=41870",
+  //     "jam": "Ludum Dare 37",
+  // },
+  {
     "title": "Fracture",
     "image": __webpack_require__(/*! images/fracture.gif */ "./source/images/fracture.gif"),
     "link": "https://globalgamejam.org/2016/games/fracture",
@@ -2309,38 +2170,43 @@ var portfolio = {
     "image": __webpack_require__(/*! images/stick-em-1.png */ "./source/images/stick-em-1.png"),
     "link": "http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=41870",
     "jam": "Ludum Dare 36"
-  }, {
-    "jam": "Social Justice Jam 2016",
-    "image": __webpack_require__(/*! images/nodapl.png */ "./source/images/nodapl.png"),
-    "link": "https://ehgoodenough.github.io/nodapl"
-  }, {
+  }, // {
+  //     "jam": "Social Justice Jam 2016",
+  //     "image": require("images/nodapl.png"),
+  //     "link": "https://ehgoodenough.github.io/nodapl",
+  // },
+  {
     "title": "Stack",
     "image": __webpack_require__(/*! images/stack.gif */ "./source/images/stack.gif"),
     "jam": "A9VS Hackathon 2016"
-  }, {
-    "title": "Wearwolf",
-    "image": __webpack_require__(/*! images/wearwolf.gif */ "./source/images/wearwolf.gif"),
-    "link": "http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=41870",
-    "jam": "Ludum Dare 35"
-  }, {
-    "image": __webpack_require__(/*! images/roguelike.gif */ "./source/images/roguelike.gif"),
-    "jam": "7DRL 2016"
-  }, {
-    "title": "Snake-on-a-Plane",
-    "image": __webpack_require__(/*! images/snake-on-a-plane.gif */ "./source/images/snake-on-a-plane.gif"),
-    "link": "http://ehgoodenough.github.io/snake-on-a-plane/v0.0.2/",
-    "jam": "GDC Plane Jam 2016"
-  }, {
+  }, // {
+  //     "title": "Wearwolf",
+  //     "image": require("images/wearwolf.gif"),
+  //     "link": "http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=41870",
+  //     "jam": "Ludum Dare 35",
+  // },
+  // {
+  //     "image": require("images/roguelike.gif"),
+  //     "jam": "7DRL 2016",
+  // },
+  // {
+  //     "title": "Snake-on-a-Plane",
+  //     "image": require("images/snake-on-a-plane.gif"),
+  //     "link": "http://ehgoodenough.github.io/snake-on-a-plane/v0.0.2/",
+  //     "jam": "GDC Plane Jam 2016",
+  // },
+  {
     "title": "Sproutsong",
     "image": __webpack_require__(/*! images/sproutsong.gif */ "./source/images/sproutsong.gif"),
     "link": "http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=41870",
     "jam": "Ludum Dare 34"
-  }, {
-    "title": "Papercut",
-    "image": __webpack_require__(/*! images/papercut.gif */ "./source/images/papercut.gif"),
-    "link": "https://github.com/ehgoodenough/papercut/releases",
-    "jam": "Playfab Jam 2015"
-  }, {
+  }, // {
+  //     "title": "Papercut",
+  //     "image": require("images/papercut.gif"),
+  //     "link": "https://github.com/ehgoodenough/papercut/releases",
+  //     "jam": "Playfab Jam 2015",
+  // },
+  {
     "title": "Bit Fighter",
     "image": __webpack_require__(/*! images/bitfight.gif */ "./source/images/bitfight.gif"),
     "link": "http://ehgoodenough.github.io/bitfight/",
@@ -2350,12 +2216,13 @@ var portfolio = {
     "image": __webpack_require__(/*! images/zompocalypse.gif */ "./source/images/zompocalypse.gif"),
     "link": "http://ehgoodenough.github.io/zompocalypse/",
     "jam": "JS13K 2015"
-  }, {
-    "title": "Starbox",
-    "image": __webpack_require__(/*! images/starbox.gif */ "./source/images/starbox.gif"),
-    "link": "https://globalgamejam.org/2015/games/starbox",
-    "jam": "Global Game Jam 2015"
-  }, {
+  }, // {
+  //     "title": "Starbox",
+  //     "image": require("images/starbox.gif"),
+  //     "link": "https://globalgamejam.org/2015/games/starbox",
+  //     "jam": "Global Game Jam 2015",
+  // },
+  {
     "title": "Jumpdude",
     "image": __webpack_require__(/*! images/jumpdude-1.gif */ "./source/images/jumpdude-1.gif"),
     "jam": "Yeah Good Enough Jam 2014"
@@ -2363,22 +2230,7 @@ var portfolio = {
     "title": "Whoami",
     "image": __webpack_require__(/*! images/whoami.gif */ "./source/images/whoami.gif"),
     "link": "http://ehgoodenough.github.io/whoami/v0.1.9",
-    "jam": "ChaDevs Jam 2014"
-  }, {
-    "title": "Inverse Worlds",
-    "image": __webpack_require__(/*! images/inverse-worlds.png */ "./source/images/inverse-worlds.png"),
-    "link": "http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=41870",
-    "jam": "Ludum Dare 30"
-  }, {
-    "title": "Nothingness",
-    "image": __webpack_require__(/*! images/nothingness.png */ "./source/images/nothingness.png"),
-    "link": "http://mocsarcade.github.io/nothingness/",
-    "jam": "UTC CPSC4910"
-  }, {
-    "title": "OpOb",
-    "image": __webpack_require__(/*! images/opob-2.png */ "./source/images/opob-2.png"),
-    "link": "http://ehgoodenough.github.io/whoami/v0.1.9",
-    "jam": "Global Game Jam 2014"
+    "jam": "Waypaver Hackathon 2014"
   }] // {
   //     "title": "",
   //     "image": "",
